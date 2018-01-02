@@ -88,7 +88,7 @@ var data = {
             {
               'name': 'Canelones',
               'photo': 'http://orsimages.unileversolutions.com/ORS_Images/Knorr_es-ES/Canelones_WEB_OK_33_2.1.132_1214X2164.Jpeg',
-              'description': 'Co suave relleno a base de lomo fino y pechugas de pollo.',
+              'description': 'Con suave relleno a base de lomo fino y pechugas de pollo.',
               'size': 'para 3-4 personas',
               'price': 26,
               'service': 'Servicio exclusivo en local'
