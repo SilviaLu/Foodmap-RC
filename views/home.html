@@ -10,27 +10,31 @@
 		<title>FOODMAQ</title>
 </head>
 <body>
-	<header class="col-xs-12 col-sm-12 home">
+	<header class="home">
 		<div class="container-fluid">
-			<h1 class="text-center foodmaq">Foodmap</h1>
-			<div class="line">
-					<img src="assets/img/line.png" alt="Line">
+			<div class="row box-home-foodmaq">
+				<h1 class="text-center home-foodmaq">Foodmap</h1>
+				<div class="box-line ">
+						<img class="line" src="../assets/img/line.png" alt="Line">
+				</div>
 			</div>
 		</div>
 	</header>
-	
-	<div class="col-xs-12 col-sm-12 text-center map">aqui va el mapa
-	</div>
+			<div class="text-center map">
+				<div id="map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15603.080797305964!2d-77.0259275572247!3d-12.127869677817198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes+en+miraflores!5e0!3m2!1ses!2spe!4v1514848898738" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+		</div>
+
 		<div>
 				<h2 class="text-center subtitle">Comida cerca de ti</h2>
 		</div>
-		<div class="container-flex-column vh100 search">		
+		<div class="search">		
 				<input type="search" placeholder="Que antojo tienes hoy">
 				<span class="input-group-addon" id="basic-addon2"><i class="fa fa-search" aria-hidden="true"></i></span>
 		</div>
 		<div class="dropdown">
 				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Dropdown
 				</button>
 				<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
 					<button class="dropdown-item" type="button">Comida peruana</button>
@@ -40,7 +44,8 @@
 				</div>
 			</div>
 
-		<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>  <!-- este recurso siempre debe ir antes del linkeado -->
+		<script src="../vendors/jquery/jquery-3.2.1.min.js"></script> 
 		<script src="../js/home.js"></script>
+
 </body>
 </html>
