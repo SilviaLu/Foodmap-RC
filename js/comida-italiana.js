@@ -3,7 +3,7 @@ var data = {
     'Comidas': {
       'restaurant': [
         {
-          'name': 'Restaurant Danica',
+          'name': 'Restaurant Danica', // Restaurant N° 1
           'address': 'Av. Emilio Cavenecia 170, San Isidro 15073',
           'phone': '(01)4211891',
           'photo': 'http://www.netlima.com/peru/7733.jpg',
@@ -37,7 +37,7 @@ var data = {
           }
         },
         {
-          'name': 'Don Rosalino',
+          'name': 'Don Rosalino', // Restaurant N° 2
           'address': 'Av. República de Panamá 5897, Miraflores 15048',
           'phone': '(01)5555555',
           'photo': 'https://restorando-res.cloudinary.com/image/upload/s--pzvKKHsn--/c_fit,f_auto,h_500,w_700/v1/restaurant_photos/w/4988/32697/restaurante_don-rosalino-san-borja_san-borja_foto_salon_noche.jpg',
@@ -71,7 +71,7 @@ var data = {
           }
         },
         {
-          'name': 'Piacere',
+          'name': 'Piacere', // Restaurant N° 3
           'address': 'Av. Salaverry 3100, San Isidro Lima 27',
           'phone': '(01)2644335',
           'photo': 'https://media-cdn.tripadvisor.com/media/photo-s/09/d8/9e/94/20151223-130832-largejpg.jpg',
