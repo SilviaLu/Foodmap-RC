@@ -11,36 +11,111 @@
  
 </head>
 <body>
-    <h1 class="text-center food-title">COMIDA ITALIANA</h1>
+    <h2 class="text-center food-title">COMIDA ITALIANA</h2>
     <div class="card-deck">
-				<div class=" card "> <!--Restaurant N° 1  -->
-					<img class="card-img-top" src="../assets/comida-italiana/cacciatore.jpg" alt="Card image cap"> 
-					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				<div class=" card " id="other"> <!--Restaurant N° 1  -->
+						<a href="#" ><img class="card-img-top" src="../assets/comida-italiana/cacciatore.jpg" alt="Card image cap"></a> <br>
+						<div class="card-body">
+								<!-- Modal -->
+								<button type="button" class="btn btn-link card-title" data-toggle="modal" data-target="#exampleModal">Restaurant Danica<br>Pizza en rollitos <br>Brochetas de queso, albahaca  <br></button>
+
+								<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+												</button>
+												<h5 class="modal-title text-center" id="exampleModalLabel">Restaurant Danica</h5>
+												<img class="modal-img" src="../assets/img/map.png" alt="">
+												<div class="modal-text">
+													<div class="address">
+														<p>direccion: Av. Emilio Cavenecia 170, San Isidro 15073</p>
+														<p>N° de pedidos: (01)4211891</p>
+													</div>
+													<div class="date">
+														<p>Precio: S/. 20.0</p>
+														<p>Personas: familiar</p>
+													</div>
+												</div>
+
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-primary" data-dismiss="modal">Pedir</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- finish modal -->
 					</div>
 				</div>
 				<div class="card"> <!--Restaurant N° 2  -->
-					<img class="card-img-top" src="../assets/comida-italiana/capresse.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-					</div>
+						<a href="#"><img class="card-img-top" src="../assets/comida-italiana/capresse.jpg" alt="Card image cap"></a> 
+						<div class="card-body">
+								<!-- Modal-->
+								<button type="button" class="btn btn-link card-title" data-toggle="modal" data-target="#exampleModal">Don Rosalino<br>Pizzas Vegetariana<br>Pizza cuatro quesos<br></button>
+
+								<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<a href="../views/home.html"><span aria-hidden="true">&times;</span></a>
+												</button>
+												<h5 class="modal-title text-center" id="exampleModalLabel">Don Rosalino</h5>
+												<img class="modal-img" src="../assets/img/map.png" alt="">
+												<div class="modal-text">
+													<div class="address">
+														<p>direccion: Av. República de Panamá 5897, Miraflores 15048</p>
+														<p>N° de pedidos: (01)4211891</p>
+													</div>
+													<div class="date">
+														<p>Precio: S/. 25.0</p>
+														<p>Personas: 3-4 personas</p>
+													</div>
+												</div>
+
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-primary" data-dismiss="modal">Pedir</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- finish modal -->
+						
+						</div>
 				</div>
 				<div class="card"> <!--Restaurant N° 3  -->
-					<img class="card-img-top" src="../assets/comida-italiana/lasagna.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-					</div>
+						<a href="#"><img class="card-img-top" src="../assets/comida-italiana/lasagna.jpg" alt="Card image cap"></a>
+						<div class="card-body">
+							<!-- Modal-1 -->
+							<button type="button" class="btn btn-link card-title" data-toggle="modal" data-target="#exampleModal">Piacere <br>Gnocchis relleno al funghi <br>Canelones</button>
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel"></h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+											<button type="button" class="btn btn-primary">Save changes</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- finish modal -->
+						
+						</div>
 				</div>
-			</div>
+		</div>
 
-			<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>  <!-- este recurso siempre debe ir antes del linkeado -->
-			<script src="../js/comida-italiana.js"></script>
+			<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+			<script src="../vendors/bootstrap/js/bootstrap.js"></script>
+			<script src="../js/data-food.js"></script>
     
 </body>
 </html>
